@@ -169,17 +169,6 @@ img:hover {
     
 }
 
-.description-img {
-    padding-top: 20px;
-    width: 80%;
-    height: 65%;
-    max-width: 480px;
-    position: absolute;
-    right: 5%; 
-    bottom: 1px;
-    border-radius: 50px;   
-}
-
 
 /* Importance styling */
 .web_importance{
@@ -347,13 +336,6 @@ footer {
         padding-bottom: 10px;
     }
 
-    .description-img {
-        max-width: 250px;
-        height: auto;
-        position: relative;
-        margin-top: 30px;
-    }
-
     .paragraph-description p {
         font-size: 16px;
     }
@@ -433,10 +415,7 @@ footer {
         font-size: 36px;
     }
 
-    .description-img {
-        max-width: 300px;
-        height: auto;
-    }
+    
 
     .paragraph-description p {
         font-size: 18px;
