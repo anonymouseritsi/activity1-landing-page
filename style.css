@@ -161,22 +161,24 @@ img:hover {
     
 }
 
-.description-img {
-    padding-top: 20px;
+.desc_left {
     width: 80%;
     height: 65%;
     max-width: 480px;
     position: absolute;
-    right: 5%; 
-    bottom: 1px;
-    border-radius: 50px}
+    left: 3%; 
+    bottom: 80px;
+    border-radius: 20px;   
+    opacity: 80% ;
+}
 
-.paragraph-description p{
+.desc_right p{
     max-width: 600px;
     font-weight: 400;
     font-size: 22px;
     position: absolute;
     bottom: 0;
+    right:5%;
     
 }
 
