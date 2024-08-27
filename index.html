@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav>
+    <h1 class="logo">LearnDev</h1>
+    <ul id="menu-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#importance">Importance</a></li>
+        <li><a href="#tools">Tools</a></li>
+    </ul>
+    <img src="menu.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
+</nav>
+
+<div class="header" id="home">
+  <div class="header-content">
+    <div class="left">
+    <h1>Discover About <br><span > WEB DEVELOPMENT</span> </h1>
+    <p>
+      Learning web development opens the door to creating and managing websites, empowering you to build everything from simple personal blogs to complex, dynamic web applications.
+    </p>
+   
+    <div class="btn-container">
+      <a href="#description"><button class="btn">Know More</button></a>
+    </div>
+    </div>
+    <div class="right"> 
+    <img src="bg2.jpg" alt="User Image" class="user-img">
+    </div>
+  </div>
+</div>
+
+<section id="description">
+  <div class="description-content">
+    
+    <h1>WEB DEVELOPMENT </h1>
+    
+    <div class="desc_right">
+    <img src="2.jpg" alt="User Image" class="description-img">
+    </div>
+    <div class="paragraph-description">
+      <p>Web development is the process of creating, building, and maintaining websites and web applications. 
+        It involves a combination of front-end development, which focuses on the user interface and experience (UI/UX) 
+        using technologies like HTML, CSS, and JavaScript, and back-end development, which handles the server-side logic, 
+        databases, and application functionality, often using languages like Python, Ruby, PHP, or JavaScript with 
+        frameworks like Node.js. </p>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+<section id="importance">
+ 
+  <h1 class="web_importance">Importance of WEB DEVELOPMENT </h1>
+  <div class="importance-content">
+    
+    
+    <div class="global_para">
+    <img src="global.jpg" alt="User Image" class="importance-img">
+    <p>It allows businesses and individuals to establish an online presence, 
+      making it easier to reach and connect with a global audience.
+      </p>
+    </div>
+
+    <div class="automation_para">
+      <img src="automation.jpg" alt="User Image" class="importance-img">
+      <p>Web development drives innovation by enabling the creation of new digital tools, applications, 
+        and services that can improve efficiency and user experience.   </p>
+    </div>
+
+    <div class="data_para">
+        <img src="data.jpg" alt="User Image" class="importance-img">
+        <p>Well-developed websites ensure that information is accessible to all users, including those with disabilities, 
+          which is essential for inclusivity and compliance with legal standards.</p>
+    </div>
+    
+         
+    </div>
+  </div>
+
+
+  
+</section>
+
+<section id="tools">
+  <h1 class="tools_title">Tools Use in WEB DEVELOPMENT </h1>
+  <div class="tools-content">
+    <div>
+    <img src="htmll.png" alt="User Image" >
+    <a href="https://www.codecademy.com/learn/learn-html" target="_blank"><button class="btn" >Learn More about HTML</button></a>
+    </div>
+    <div>
+    <img src="css.jpg" alt="User Image" >
+    <a href="https://www.codecademy.com/learn/learn-css"  target="_blank"><button class="btn">Learn More about CSS</button></a>
+    </div>
+    <div>
+    <img src="js.png" alt="User Image" >
+    <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank"><button class="btn" >Learn More about JAVASCRIPT</button></a>
+    </div>
+    
+
+  </div>
+  <footer >
+      <p>Copyright &copy; 2024 | All Rights Reserved</p>
+      <p style="color: rgba(250, 226, 12, 1);">DEVELOPED BY: RICHIE M. ALCANTARA</p>
+  </footer>
+</section>
+   
+     
+</body>
+
+<script>
+  let menuLinks = document.getElementById("menu-links");
+
+  function toggleMenu() {
+      menuLinks.classList.toggle('show-menu');
+  }
+</script>
+</html>
