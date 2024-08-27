@@ -142,7 +142,6 @@ img:hover {
 
 /* description styling */
 .description-content{
-    background-image: url('2.jpg');
     width: 100%;
     min-height: 90vh;
     padding: 0 10%;
@@ -159,7 +158,19 @@ img:hover {
     margin-bottom: 200px;
     text-align: center;
     padding-bottom: 80px;
+    
 }
+
+.description-img {
+    padding-top: 20px;
+    width: 80%;
+    height: 65%;
+    max-width: 480px;
+    position: absolute;
+    right: 5%; 
+    bottom: 1px;
+    border-radius: 50px}
+
 .paragraph-description p{
     max-width: 600px;
     font-weight: 400;
@@ -335,6 +346,12 @@ footer {
         margin-bottom: 10px;
         padding-bottom: 10px;
     }
+    .description-img {
+        max-width: 250px;
+        height: auto;
+        position: relative;
+        margin-top: 30px;
+    }
 
     .paragraph-description p {
         font-size: 16px;
@@ -414,8 +431,11 @@ footer {
     .description-content h1 {
         font-size: 36px;
     }
-
     
+    .description-img {
+        max-width: 300px;
+        height: auto;
+    }
 
     .paragraph-description p {
         font-size: 18px;
