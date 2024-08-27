@@ -142,6 +142,7 @@ img:hover {
 
 /* description styling */
 .description-content{
+    background-image: url('2.jpg');
     width: 100%;
     min-height: 90vh;
     padding: 0 10%;
