@@ -339,20 +339,30 @@ footer {
         margin-top: 80px;
         position: relative;
     }
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .description h1 {
         font-size: 32px;
-   
+        order: 1; /* Ensure h1 stays at the top */
     }
+
     .description-img {
         max-width: 300px;
         height: auto;
-        margin-bottom:80px;
-        position: relative;
-    }
+        margin-bottom: 20px;
+        margin-top: 20px;
+        order: 2; /* Ensure image is under h1 */
+        }
+
 
     .description p {
         font-size: 16px;
+        order:3;
     }
 
     .web_importance,
