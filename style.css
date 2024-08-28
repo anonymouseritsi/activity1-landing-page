@@ -334,7 +334,7 @@ footer {
     }
 
     .user-img {
-        max-width: 300px;
+        max-width: 350px;
         height: auto;
         margin-top: 80px;
         position: relative;
@@ -344,13 +344,13 @@ footer {
     .description h1 {
         font-size: 32px;
         padding-bottom:30px;
-        margin-bottom:10px;
+        margin-bottom:30px;
      
        
     }
 
     .description-img {
-        max-width: 300px;
+        max-width: 350px;
         height: auto;
         margin-bottom: 200px;
         position: relative;
