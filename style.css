@@ -161,6 +161,14 @@ img:hover {
     
 }
 
+.desc_left {
+    max-width: 600px;
+    position: absolute;
+    bottom: 100px;
+    left:3%;
+    
+}
+
 .description-img {
     width: 80%;
     height: 65%;
