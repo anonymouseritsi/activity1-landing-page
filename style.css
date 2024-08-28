@@ -15,6 +15,31 @@ body
     scroll-behavior: smooth;
 }
 
+/* General image styling */
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05) translateY(-10px); 
+    /* box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);  */
+}
+
+
+.user-img:hover {
+    transform: scale(1.1) rotate(3deg); 
+}
+
+.description-img:hover {
+    transform: scale(1.05) translateX(10px); 
+}
+
+.importance:hover {
+    transform: scale(1.08) translateY(-10px) rotate(-3deg); 
+}
+
+
 nav {
     position: fixed;
     top: 0;
@@ -115,29 +140,6 @@ nav img {
     
 }
 
-/* General image styling */
-img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    cursor: pointer;
-}
-
-img:hover {
-    transform: scale(1.05) translateY(-10px); 
-    /* box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);  */
-}
-
-
-.user-img:hover {
-    transform: scale(1.1) rotate(3deg); 
-}
-
-.description-img:hover {
-    transform: scale(1.05) translateX(10px); 
-}
-
-.importance:hover {
-    transform: scale(1.08) translateY(-10px) rotate(-3deg); 
-}
 
 
 /* description styling */
@@ -149,7 +151,6 @@ img:hover {
     justify-content: center;
     flex-direction: column;
     position: relative;
-   
 }
 
 .description h1 {
