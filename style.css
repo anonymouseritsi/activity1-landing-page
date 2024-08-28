@@ -141,18 +141,19 @@ img:hover {
 
 
 /* description styling */
-.description-content{
+.description {
+    background-image: url('bg2.jpg');
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 0 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    
+   
 }
 
-.description-content h1 {
+.description h1 {
     font-size: 70px;
     color: rgba(250, 226, 12, 1);
     margin-bottom: 200px;
@@ -161,26 +162,19 @@ img:hover {
     
 }
 
-.desc_left {
-    max-width: 600px;
-    position: absolute;
-    bottom: 100px;
-    left:3%;
-    
-}
 
 .description-img {
     width: 80%;
     height: 65%;
     max-width: 480px;
     position: absolute;
-    left: 3%; 
+    left: 5%; 
     bottom: 80px;
     border-radius: 20px;   
     opacity: 80% ;
 }
 
-.desc_right p{
+.description p{
     max-width: 600px;
     font-weight: 400;
     font-size: 22px;
