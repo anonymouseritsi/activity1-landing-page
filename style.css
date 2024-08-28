@@ -347,12 +347,13 @@ footer {
     .description-img {
         max-width: 300px;
         height: auto;
-        bottom:80px;
+        margin-bottom:80px;
         position: relative;
     }
 
     .description p {
         font-size: 16px;
+        margin-top:20px;
     }
 
     .web_importance,
