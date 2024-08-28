@@ -342,7 +342,7 @@ footer {
 
     .description h1 {
         font-size: 32px;
-        bottom:50px;
+        margin-bottom:50px;
     }
     .description-img {
         max-width: 300px;
