@@ -161,7 +161,7 @@ img:hover {
     
 }
 
-.desccription-img {
+.description-img {
     width: 80%;
     height: 65%;
     max-width: 480px;
@@ -348,7 +348,7 @@ footer {
         margin-bottom: 10px;
         padding-bottom: 10px;
     }
-    .desccription-img {
+    .description-img {
         max-width: 300px;
         height: auto;
         margin-bottom: 80px;
@@ -434,7 +434,7 @@ footer {
         font-size: 36px;
     }
     
-    .desccription-img {
+    .description-img {
         max-width: 300px;
         height: auto;
     }
