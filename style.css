@@ -348,11 +348,11 @@ footer {
         margin-bottom: 10px;
         padding-bottom: 10px;
     }
-    .description-img {
-        max-width: 250px;
+    .desc_left img {
+        max-width: 300px;
         height: auto;
+        margin-bottom: 80px;
         position: relative;
-        margin-top: 30px;
     }
 
     .paragraph-description p {
@@ -434,7 +434,7 @@ footer {
         font-size: 36px;
     }
     
-    .description-img {
+    .desc_left img {
         max-width: 300px;
         height: auto;
     }
