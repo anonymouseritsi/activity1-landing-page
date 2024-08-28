@@ -342,12 +342,12 @@ footer {
 
     .description h1 {
         font-size: 32px;
-        margin-bottom:50px;
+        margin-bottom:40px;
     }
     .description-img {
         max-width: 300px;
         height: auto;
-        margin-bottom: 150px;
+        top:10;
         position: relative;
     }
 
@@ -424,6 +424,7 @@ footer {
 
     .description h1 {
         font-size: 36px;
+        margin-bottom:50px
     }
     
     .description-img {
