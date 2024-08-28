@@ -142,7 +142,6 @@ img:hover {
 
 /* description styling */
 .description {
-    background-image: url('bg2.jpg');
     width: 100%;
     min-height: 100vh;
     padding: 0 10%;
@@ -165,11 +164,10 @@ img:hover {
 
 .description-img {
     width: 80%;
-    height: 65%;
+    height: 70%;
     max-width: 480px;
-    position: absolute;
     left: 5%; 
-    bottom: 80px;
+    bottom: 50px;
     border-radius: 20px;   
     opacity: 80% ;
 }
@@ -341,11 +339,11 @@ footer {
         position: relative;
     }
 
-    .description-content {
+    .description {
         padding: 20px 10%;
     }
 
-    .description-content h1 {
+    .description h1 {
         font-size: 32px;
         margin-bottom: 10px;
         padding-bottom: 10px;
@@ -357,7 +355,7 @@ footer {
         position: relative;
     }
 
-    .paragraph-description p {
+    .description p {
         font-size: 16px;
     }
 
@@ -428,11 +426,11 @@ footer {
         margin-top: 30px;
     }
 
-    .description-content {
+    .description {
         padding: 40px 10%;
     }
 
-    .description-content h1 {
+    .description h1 {
         font-size: 36px;
     }
     
@@ -441,7 +439,7 @@ footer {
         height: auto;
     }
 
-    .paragraph-description p {
+    .description p {
         font-size: 18px;
     }
 
