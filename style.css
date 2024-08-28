@@ -356,7 +356,7 @@ footer {
     .description-img {
         max-width: 300px;
         height: auto;
-        margin-bottom: 50px;
+        margin-bottom: 200px;
         order: 2; /* Ensure image is under h1 */
         position: relative;
         }
