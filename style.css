@@ -358,7 +358,7 @@ footer {
         height: auto;
         bottom: 100px;
         order: 2; /* Ensure image is under h1 */
-        position: relative;
+        
         }
 
 
