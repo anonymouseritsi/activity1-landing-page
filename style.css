@@ -347,7 +347,7 @@ footer {
     .description-img {
         max-width: 300px;
         height: auto;
-        margin-bottom:80px;
+        bottom:250px;
         position: relative;
     }
 
